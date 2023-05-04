@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 7vh;
+}
+
+main {
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 93vh;
+
+}
+
+.icon {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.button-title{
+    padding-top: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30%;
+}
+.titulo{
+    color: rgb(235, 235, 235);
+    font-size: 64px;
+}
+.click{
+    width: 25%;
+    height: 50px;
+    background: rgba(217, 217, 217, 0.22);
+    
+    font-size: 20px;
+    color: rgb(235, 235, 235 );
+}
