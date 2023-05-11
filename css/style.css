@@ -34,11 +34,16 @@ main {
     color: rgb(235, 235, 235);
     font-size: 64px;
 }
-.click{
-    width: 25%;
-    height: 50px;
-    background: rgba(217, 217, 217, 0.22);
+.link{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 50%;
+    height: 200px;
     
+}
+.click{
+    background: rgba(217, 217, 217, 0.22);
     font-size: 20px;
     color: rgb(235, 235, 235 );
 }
