@@ -55,6 +55,9 @@ main {
 }
 
 .image {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
     float: right;
     max-width: 64px;
     max-height: 64px;
@@ -62,14 +65,20 @@ main {
 
 .blue {
     background-color: #4895ff;
+    place-self: center;
+
 }
 
 .green {
     background-color: #3bb54a;
+    place-self: center;
+
 }
 
 .red {
     background-color: #b3404a;
+    place-self: center;
+
 }
 .nome{
     display: flex;
