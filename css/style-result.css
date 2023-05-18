@@ -15,11 +15,3 @@ header {
     align-items: center;
     padding: 5px;
 }
-
-main {
-    background-image: url(../img/fundo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 93vh;
-
-}

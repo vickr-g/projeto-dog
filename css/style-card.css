@@ -16,72 +16,14 @@ header {
     padding: 5px;
 }
 
-main {
-    background-image: url(../img/fundo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 93vh;
-
-}
 
 .row {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    place-content: center;
-  
+    width: 100%;
+    height: 100%;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+    padding: 10px;
 }
 
-.card {
-   
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 30px;
-    margin: 20px;
-    width: 200px;
-    height: 250px;
-    transition: all 0.3s;
-
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    cursor: pointer;
-}
-
-.card p {
-    color: #a3a5ae;
-    font-size: 16px;
-}
-
-.image {
-    display: flex;
-    align-items: center;
-    justify-content: center ;
-    float: right;
-    max-width: 64px;
-    max-height: 64px;
-}
-
-.blue {
-    background-color: #4895ff;
-    place-self: center;
-
-}
-
-.green {
-    background-color: #3bb54a;
-    place-self: center;
-
-}
-
-.red {
-    background-color: #b3404a;
-    place-self: center;
-
-}
-.nome{
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;
-}

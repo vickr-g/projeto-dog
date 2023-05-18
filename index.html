@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="./app.js" defer></script>
-    <title>FATOS ALEATORIOS SOBRE CÃES</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style-card.css">
+  <link rel="stylesheet" href="./css/style-result.css">
+  <script src="./js/app.js" defer type="module"></script>
+  <script src="./js/router.js"></script>
+  <script src="./js/classes/card-dog.js" defer type="module"></script>
+  <title>FATOS ALEATORIOS SOBRE CÃES</title>
 </head>
+
 <body>
   <header>
-      <img src="./img/icon.png" alt="imagem de uma pata de cachorro" class="icon">
+    <img src="./img/icon.png" alt="imagem de uma pata de cachorro" class="icon">
+    <a href="/" class="link-back">
+      <img src="./img/arrow-u-left-top-bold.svg" alt="Back">
+    </a>
   </header>
-  <main>
-      <div class="button-title">
-        <h1 class="titulo">FATOS ALEATÓRIOS</br> SOBRE CÃES </h1>
-        <div class="link"><a href="./index-cards.html" class="click">Click Here</a></div>
-        
-      </div>
+  <main id="root">
+    <h1 class="titulo">FATOS ALEATÓRIOS</br> SOBRE CÃES </h1>
+    <a href="/cards" class="click" onclick="route()">
+        Click here ;)
+    </a>
+
   </main>
 </body>
+
 </html>
