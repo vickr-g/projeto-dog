@@ -1,4 +1,5 @@
 'use strict'
+import { carregarCards } from './app.js'
 
 const routes = {
     '/': '/pages/home.html',
@@ -18,6 +19,10 @@ const route = async () => {
     const html = await response.text()
     
     document.getElementById('root').innerHTML = html
+
+    if (window.location.pathname == '/cards'){
+        carregarCards()
+    }
 }
 
 window.route = route
